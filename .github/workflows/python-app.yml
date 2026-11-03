@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v4
     - name: Install dependencies
       run: |
-        python -m pip install pytest --user
+        python3 -m pip install pytest --user
     - name: Test with pytest
       run: |
         cd src
